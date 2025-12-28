@@ -1,6 +1,6 @@
 # Google-Maps-API-Ollama-Tutorial
 
-# 專案簡介
+# 簡介
 本專案教學如何使用 Python 串接 Google Routes API 與 Street View Static API，並自動將取得的資訊餵給本地端的 Ollama (LLM) 進行分析。
 
 # 準備工作
@@ -11,7 +11,7 @@
     指定模型: llama3.2-vision:11b
 3. Python 環境
 
-# 核心流程說明
-Step 1: Routes API - 輸入起終點，取得路徑座標
-Step 2: Street View Static API - 根據座標抓取對應的街景圖
-Step 3: Prompt Automation - 組合 API 回傳的資料，發送給 Ollama 進行敘事或分析
+# 大致流程說明
+1. Routes API - 輸入起終點，取得路徑座標
+2. Street View Static API - 根據座標抓取對應的街景圖
+3. Prompt Automation - 組合 API 回傳的資料，發送給 Ollama 進行敘事或分析
