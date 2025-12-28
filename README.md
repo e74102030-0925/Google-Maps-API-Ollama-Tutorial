@@ -8,7 +8,7 @@
 2. 連線至rccn私有伺服器:
     本專案使用老師架設的 Ollama 伺服器，請確保你的電腦已連線至校內/實驗室區域網路。
     API Endpoint: http://10.16.80.24:11434/api/generate
-    指定模型: llama3.2-vision:11b (此模型支援圖片分析，用於街景描述)。
+    指定模型: llama3.2-vision:11b
 3. Python 環境
 
 # 核心流程說明
